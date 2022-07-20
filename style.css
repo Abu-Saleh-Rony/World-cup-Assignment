@@ -1,0 +1,98 @@
+/*Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common styles*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+.top-container {
+    display: flex;
+    background-color: #161616;
+    Width: 1321px;
+    Height: 646px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.top-banner-title {
+    font-size: 70px;
+    font-weight: 700;
+    padding-left: 93px;
+    padding-top: 50px;
+
+}
+
+.banner-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 93px;
+}
+
+.top-banner-info {
+    color: #FFFFFF;
+}
+
+.second-container {
+    margin-top: 70px;
+
+}
+
+.players-transfer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5px;
+    margin-left: 220px;
+}
+
+.player-thumbnail {
+    width: 312px;
+    height: 175px;
+}
+
+.transfer-button {
+    width: 77px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 1px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: black;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.footer-goal {
+    color: #F3F1FF;
+    font-size: 30px;
+    text-align: center;
+
+    padding-top: 80px;
+}
+
+hr {
+    color: aliceblue;
+}
+
+.footer-list {
+    color: #F3F1FF;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+
+}
+
+.footer-media-list {
+    color: #F3F1FF;
+    list-style: none;
+    margin-left: 45%;
+
+
+}
