@@ -53,6 +53,10 @@ p {
     font-weight: 400;
 }
 
+.watch-button:hover {
+    background-color: rgb(17, 17, 243);
+}
+
 .middle-portion {
     margin-top: 50px;
     display: grid;
