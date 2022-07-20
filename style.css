@@ -53,21 +53,67 @@ p {
     font-weight: 400;
 }
 
-.second-container {
-    margin-top: 70px;
+.middle-portion {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
+}
+
+.side-portion {
+    width: 280px;
+    height: 280px;
+    background: #161616;
+    border-radius: 10px;
+    margin-left: 135px;
+}
+
+.side-button {
+    padding-top: 60px;
+    padding-left: 40px;
+    align-items: center;
+
+}
+
+.match-button {
+    text-decoration: none;
+    background-color: #F3F1FF;
+    color: #161616;
+    position: relative;
+    padding: 15px 33px;
+    border-radius: 10px;
+}
+
+.group-button {
+    text-decoration: none;
+    background-color: #F3F1FF;
+    color: #161616;
+    position: relative;
+    padding: 15px 65px;
+    border-radius: 10px;
+}
+
+.blog-button {
+    text-decoration: none;
+    background-color: rgb(233, 14, 14);
+    color: #F3F1FF;
+    padding: 15px 85px;
+    position: relative;
+    border-radius: 10px;
 }
 
 .players-transfer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 24px;
-    margin-left: 400px;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    margin-left: 40px;
 }
 
 .player-thumbnail {
     width: 312px;
     height: 175px;
+    border-radius: 10px;
 }
 
 .transfer-button {
@@ -87,14 +133,14 @@ footer {
 
 .footer-goal {
     color: #F3F1FF;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     padding-top: 70px;
 }
 
 hr {
     color: aliceblue;
-    opacity: 12%;
+    opacity: 8%;
 }
 
 .footer-list {
