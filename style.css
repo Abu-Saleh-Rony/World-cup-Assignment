@@ -22,11 +22,11 @@ body {
     font-size: 70px;
     font-weight: 700;
     padding-left: 93px;
-    padding-top: 50px;
+    padding-top: 20px;
 
 }
 
-.banner-paragraph {
+p {
     font-size: 16px;
     font-weight: 400;
     padding-left: 93px;
@@ -34,6 +34,23 @@ body {
 
 .top-banner-info {
     color: #FFFFFF;
+}
+
+.banner-image {
+    width: 581px;
+    height: 613px;
+    padding-top: 33px;
+}
+
+.watch-button {
+    text-decoration: none;
+    background-color: rgb(240, 13, 13);
+    color: #F3F1FF;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-left: 93px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .second-container {
@@ -44,8 +61,8 @@ body {
 .players-transfer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 5px;
-    margin-left: 220px;
+    grid-row-gap: 24px;
+    margin-left: 400px;
 }
 
 .player-thumbnail {
@@ -72,12 +89,12 @@ footer {
     color: #F3F1FF;
     font-size: 30px;
     text-align: center;
-
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 hr {
     color: aliceblue;
+    opacity: 12%;
 }
 
 .footer-list {
