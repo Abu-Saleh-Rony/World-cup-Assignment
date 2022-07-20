@@ -252,13 +252,33 @@ hr {
  Tablet Device 
  --------------- */
 
-@media only screen and (min-width:688px) and (max-width:992px) {
+@media only screen and (min-width:868px) and (max-width:1023px) {
+
     .top-container {
-        margin-left: 45px;
+        width: 100%;
+
+    }
+
+    .side-portion {
+        display: flex;
+        flex-direction: row;
+        background-color: #FFFFFF;
     }
 
     .players-transfer {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+        margin-top: 25px;
     }
+
+    .footer-goal {
+        text-align: center;
+    }
+
+    .footer-list {
+        justify-content: space-evenly;
+        padding-left: 0.5%;
+
+    }
+
 }
