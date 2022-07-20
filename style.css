@@ -247,3 +247,18 @@ hr {
     }
 
 }
+
+/*---------------
+ Tablet Device 
+ --------------- */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .top-container {
+        margin-left: 45px;
+    }
+
+    .players-transfer {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+}
