@@ -182,7 +182,6 @@ hr {
     list-style: none;
     margin-left: 45%;
 
-
 }
 
 /*---------------
@@ -255,17 +254,23 @@ hr {
 @media only screen and (min-width:868px) and (max-width:1023px) {
 
     .top-container {
-        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0px;
+        height: 100%;
 
     }
 
     .side-portion {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         background-color: #FFFFFF;
+
     }
 
     .players-transfer {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         margin-top: 25px;
